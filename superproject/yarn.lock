@@ -502,6 +502,16 @@ cordova-app-hello-world@^4.0.0:
   resolved "https://registry.yarnpkg.com/cordova-app-hello-world/-/cordova-app-hello-world-4.0.0.tgz#a30e896b210787332337069c50845e1802dabcff"
   integrity sha512-hTNYHUJT5YyMa1cQQE1naGyU6Eh5D5Jl33sMnCh3+q15ZwWTL/TOy3k8+mUvjTp8bwhO5eECGKULYoVO+fp9ZA==
 
+cordova-browser@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cordova-browser/-/cordova-browser-6.0.0.tgz#26e701587076e55bf33f491f3e38fee875c32b56"
+  integrity sha512-G61S7fhnVVJC98lvkGeKCVpfFtoW0a1P1Sg9TK+n03g3yupDMIM7XuecWuJ3KEMRhED4+CEc2hauruAff7oXrw==
+  dependencies:
+    cordova-common "^3.1.0"
+    cordova-serve "^3.0.0"
+    nopt "^4.0.1"
+    shelljs "^0.5.3"
+
 cordova-common@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cordova-common/-/cordova-common-3.2.0.tgz#9a5c9215f817d7a08fbd014bf963c544e1feb671"
@@ -571,6 +581,11 @@ cordova-lib@^9.0.0:
     semver "^5.6.0"
     shebang-command "^1.2.0"
     underscore "^1.9.1"
+
+cordova-plugin-whitelist@^1.3.3:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-whitelist/-/cordova-plugin-whitelist-1.3.4.tgz#31938545c7c3e7de35c20ab08c2c3afa06e8a3f9"
+  integrity sha512-EYC5eQFVkoYXq39l7tYKE6lEjHJ04mvTmKXxGL7quHLdFPfJMNzru/UYpn92AOfpl3PQaZmou78C7EgmFOwFQQ==
 
 cordova-serve@^3.0.0:
   version "3.0.0"
@@ -1721,9 +1736,9 @@ lodash.debounce@^4.0.8:
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
 lodash@^4.17.11:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loud-rejection@^2.0.0:
   version "2.1.0"
@@ -2490,6 +2505,11 @@ shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+
+shelljs@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.5.3.tgz#c54982b996c76ef0c1e6b59fbdc5825f5b713113"
+  integrity sha1-xUmCuZbHbvDB5rWfvcWCX1txMRM=
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
